@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/dark_purple"
+        />
+
+
+
+        <ImageView
+            android:id="@+id/icon_infinity"
+            android:layout_width="40dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_infinity"
+            android:layout_alignParentStart="true"
+            android:layout_marginHorizontal="25dp"
+
+            />
+        <ImageView
+            android:id="@+id/icon_happy"
+            android:layout_width="40dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_emoji_happy"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:id="@+id/icon_sunny"
+            android:layout_width="40dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_sunny"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="25dp"
+
+            />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon_sunny"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cabin"
+        android:textColor="@color/black"
+        android:layout_marginTop="23dp"
+        android:textSize="17dp"
+        android:text="@string/user_name"
+
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text_phrase"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="25dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/phrase_motivation"
+        android:fontFamily="@font/cabin"
+
+        />
+
+    <View
+        android:id="@+id/border_bottom"
+        android:layout_width="150dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/text_phrase"
+        android:layout_centerHorizontal="true"
+        android:background="@color/dark_purple"
+        />
+
+    <Button
+        android:id="@+id/button_new_phrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/dark_purple"
+        android:fontFamily="@font/cabin"
+        android:layout_marginBottom="23dp"
+        android:text="@string/new_phrase" />
+
+
+</RelativeLayout>

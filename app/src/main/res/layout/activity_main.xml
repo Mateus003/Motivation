@@ -82,13 +82,14 @@
         android:background="@color/dark_purple"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_new_phrase"
-        android:layout_width="wrap_content"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/dark_purple"
+        android:background="@drawable/background_button_new_phrase"
         android:fontFamily="@font/cabin"
         android:layout_marginBottom="23dp"
         android:text="@string/new_phrase" />

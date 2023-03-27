@@ -9,7 +9,13 @@
 		<li>Kotlin</li>
 	</ul>
 	<div align="center">
+		<img src="https://user-images.githubusercontent.com/102229622/227827501-6cfbded9-6592-481b-bb0a-fb5284d53754.png" width="300px" />
 	</div>
+	<br/>
+	<div align="center">
+		<img src="https://user-images.githubusercontent.com/102229622/227827738-d38448aa-1738-40cd-a186-69bec8f2911c.png" width="300px" />
+	</div>
+	
 	
 	
 
